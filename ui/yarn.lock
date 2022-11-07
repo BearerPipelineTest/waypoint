@@ -1516,7 +1516,7 @@
   resolved "https://registry.yarnpkg.com/@hashicorp/design-system-tokens/-/design-system-tokens-1.0.0.tgz#06ab55873ef444b0958a5192db310278c6501f0b"
   integrity sha512-akziX9jiHnQ8KfJA6s8l+98Ukz30C5Lw7BpSPeTduOmdOlJv1uP7w4TV0hC6VIDMDrJrxIF5Y/HnpSCdQGlxQA==
 
-"@hashicorp/ember-flight-icons@^2.0.10", "@hashicorp/ember-flight-icons@^2.0.11":
+"@hashicorp/ember-flight-icons@^2.0.11":
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/@hashicorp/ember-flight-icons/-/ember-flight-icons-2.0.11.tgz#f0ce8a3c951f35fc78d82c6a913572ea8e7cc40d"
   integrity sha512-MHZAm8qr98pexv/Tg5HCy0ycksnUbONreRlXxHN2SkPAPEAKvqUc1dESwugoyleSysBCd/oFlVxeBRV2mN3ftg==
@@ -1525,10 +1525,20 @@
     ember-cli-babel "^7.26.11"
     ember-cli-htmlbars "^6.0.1"
 
-"@hashicorp/flight-icons@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@hashicorp/flight-icons/-/flight-icons-2.9.0.tgz#a2f091e072dcfab4f21956e81591931f99f2854c"
-  integrity sha512-Z6k+LERek9J/EXy0Q0WuozTnOK0jPpIon/7FfsYBdIaEYZGMWgZ2soU6eS3AimEHpJjCdoWu41TjfMcMJ++hrw==
+"@hashicorp/ember-flight-icons@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@hashicorp/ember-flight-icons/-/ember-flight-icons-3.0.1.tgz#38895453a7994d7089bc058ccaa11f9c7eb9584e"
+  integrity sha512-1gmzv3d//YzW87vd5FsJQpgq+addDdl3xgPkT1v9uVaDh7k8AZsz9IltymhP+Q62OIGHhx7GwagIwnwf3B6bAQ==
+  dependencies:
+    "@hashicorp/flight-icons" "^2.11.1"
+    ember-auto-import "^2.4.2"
+    ember-cli-babel "^7.26.11"
+    ember-cli-htmlbars "^6.1.0"
+
+"@hashicorp/flight-icons@^2.11.1", "@hashicorp/flight-icons@^2.9.0":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@hashicorp/flight-icons/-/flight-icons-2.11.1.tgz#0ef70fac396699fb1987afab9570786eda57e95b"
+  integrity sha512-JD3/o1jtru9b2nzMeYYABcQ3TCcBx3wv0XjibdjQ18yhZ4b3zW6v0sl9eRDl+wbfVfBeXLXuGabt7ZXWNaPCCA==
 
 "@hashicorp/pds-ember@^0.6.3":
   version "0.6.3"
@@ -6502,10 +6512,10 @@ ember-auto-import@^1.11.2, ember-auto-import@^1.11.3, ember-auto-import@^1.2.19,
     walk-sync "^0.3.3"
     webpack "^4.43.0"
 
-ember-auto-import@^2.2.4, ember-auto-import@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.4.1.tgz#25e1c21d403eed116b21972ccc5336b49a7ca46b"
-  integrity sha512-lyCl2hzIb6Dlcmfm3gI3lAtaOk/nzR2kM4GDJRRu19YJhhSkpiIMSDVjw8ShxmnYiI005R1eOcP3C/GgRRW5mA==
+ember-auto-import@^2.2.4, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.4.3.tgz#0ff8ebe37a2016dbad2ccc10c0ef2dfbd0289b55"
+  integrity sha512-yqtXDixgtBgaNIiz3DIIjJgpPoV5/UWBnsYIR/IxwDYpsGswyRWQ4D+IamkCDtaGDkZ7dNE9QZDBOrJCAG6KNA==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
@@ -6752,10 +6762,10 @@ ember-cli-htmlbars@^5.2.0, ember-cli-htmlbars@^5.3.1, ember-cli-htmlbars@^5.3.2,
     strip-bom "^4.0.0"
     walk-sync "^2.2.0"
 
-ember-cli-htmlbars@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.0.1.tgz#5487831d477e61682bc867fd138808269e5d2152"
-  integrity sha512-IDsl9uty+MXtMfp/BUTEc/Q36EmlHYj8ZdPekcoRa8hmdsigHnK4iokfaB7dJFktlf6luruei+imv7JrJrBQPQ==
+ember-cli-htmlbars@^6.0.1, ember-cli-htmlbars@^6.1.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.1.1.tgz#f5b588572a5d18ad087560122b8dabc90145173d"
+  integrity sha512-DKf2rjzIVw9zWCuFsBGJScrgf5Mz7dSg08Cq+FWFYIxnpssINUbNUoB0NHWnUJK4QqCvaExOyOmjm0kO455CPg==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     babel-plugin-ember-template-compilation "^1.0.0"
@@ -6767,10 +6777,9 @@ ember-cli-htmlbars@^6.0.1:
     fs-tree-diff "^2.0.1"
     hash-for-dep "^1.5.1"
     heimdalljs-logger "^0.1.10"
-    json-stable-stringify "^1.0.1"
+    js-string-escape "^1.0.1"
     semver "^7.3.4"
     silent-error "^1.1.1"
-    strip-bom "^4.0.0"
     walk-sync "^2.2.0"
 
 ember-cli-inject-live-reload@^2.1.0:
