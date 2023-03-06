@@ -1526,9 +1526,9 @@
     ember-cli-htmlbars "^6.0.1"
 
 "@hashicorp/flight-icons@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@hashicorp/flight-icons/-/flight-icons-2.9.0.tgz#a2f091e072dcfab4f21956e81591931f99f2854c"
-  integrity sha512-Z6k+LERek9J/EXy0Q0WuozTnOK0jPpIon/7FfsYBdIaEYZGMWgZ2soU6eS3AimEHpJjCdoWu41TjfMcMJ++hrw==
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/@hashicorp/flight-icons/-/flight-icons-2.12.0.tgz#48bc21f21678668ffe9147b181a2991d8b151fc7"
+  integrity sha512-PhjTTHCjoq4EJirifbxLxnxXnCRf1NUAYZ1WnFW8i0yOmmax6fgjsJRPlf0VIGsR8R7isFpjuy6gJ5c7mNhE0w==
 
 "@hashicorp/pds-ember@^0.6.3":
   version "0.6.3"
