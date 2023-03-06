@@ -1512,9 +1512,9 @@
     sass "^1.43.4"
 
 "@hashicorp/design-system-tokens@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hashicorp/design-system-tokens/-/design-system-tokens-1.0.0.tgz#06ab55873ef444b0958a5192db310278c6501f0b"
-  integrity sha512-akziX9jiHnQ8KfJA6s8l+98Ukz30C5Lw7BpSPeTduOmdOlJv1uP7w4TV0hC6VIDMDrJrxIF5Y/HnpSCdQGlxQA==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@hashicorp/design-system-tokens/-/design-system-tokens-1.4.1.tgz#461ee2ff7ccc46eb83098c30c20c6bba33e49cd0"
+  integrity sha512-e5bolI2Ch1+AW2/tQrkHG6QPx4g1oONum36CfhBmX4gDChpAVoBbTG2BT+XnlBJOM5vk1uuL39ysM5QSn/BZYQ==
 
 "@hashicorp/ember-flight-icons@^2.0.10", "@hashicorp/ember-flight-icons@^2.0.11":
   version "2.0.11"
